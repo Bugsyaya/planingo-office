@@ -1,0 +1,29 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	height: 100%;
+	justify-content: center;
+	width: 50%;
+
+	.links {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	button {
+		font-family: 'Architects Daughter';
+	}
+
+	a {
+		margin-bottom: 22px;
+	}
+
+	h1 {
+		align-self: center;
+		font-family: 'Architects Daughter';
+		color: var(--PRIMARY-120);
+		font-size: 2em !important;
+		margin: 0;
+	}
+}
