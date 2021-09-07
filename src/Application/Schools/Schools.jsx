@@ -6,7 +6,7 @@ import { useIntl } from 'react-intl'
 import { DeleteOutlined } from '@ant-design/icons'
 import { RadioGroup } from '@planingo/ditto'
 
-const Schools = () => {
+export const Schools = () => {
 	const Line = ({ setJoursChecked, jourDeLaSemaine, index }) => {
 		const { RangePicker } = TimePicker
 		const { Option } = Select
@@ -115,5 +115,3 @@ const Schools = () => {
 		</div>
 	)
 }
-
-export default Schools

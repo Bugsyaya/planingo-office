@@ -46,17 +46,10 @@ const Navigation = () => {
 			</Tooltip>
 		},
 		{
-			key: 'functionality-global',
-			to: '/functionality-global',
+			key: 'scope-global',
+			to: '/scope-global',
 			message: <Tooltip placement='right' title={intl.formatMessage({ id: 'navigation.functionality-global' })}>
 				<BgColorsOutlined />
-			</Tooltip>
-		},
-		{
-			key: 'setting',
-			to: '/settings',
-			message: <Tooltip placement='right' title={intl.formatMessage({ id: 'navigation.settings' })}>
-				<SettingOutlined />
 			</Tooltip>
 		}
 	]

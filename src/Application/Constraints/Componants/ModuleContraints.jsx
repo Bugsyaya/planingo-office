@@ -3,7 +3,7 @@ import '../constraints.scss'
 import { Switch } from '@planingo/ditto'
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons'
 import { useSelector } from 'react-redux'
-import { selectors } from '../../../../Account/store'
+import { selectors } from '../../../Account/store'
 import { useModuleConstraintsSetting, useUpdateModuleConstraints } from '../Hook/moduleConstraints.hook'
 
 export const ModuleContraints = () => {

@@ -13,8 +13,8 @@ import {
 	CompanyContraints,
 } from './Componants'
 import { useSelector } from 'react-redux'
-import { useFindSettingsByAccountId } from '../../../Tools/MagicBook/Settings/settings.hooks'
-import { selectors } from '../../../Account/store'
+import { useFindSettingsByAccountId } from '../../Tools/MagicBook/Settings/settings.hooks'
+import { selectors } from '../../Account/store'
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons'
 import { useCompanyConstraintsSetting, useUpdateCompanyConstraintsSetting } from './Hook/companyConstraints.hook'
 import { useStudentConstraintsSetting, useUpdateStudentConstraints } from './Hook/studentConstraints.hook'
